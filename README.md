@@ -1,68 +1,79 @@
 # NutrivaCare-AI
 Nutriva Care AI is an agentic AI healthcare assistant that provides personalized nutrition guidance, wellness recommendations, multilingual support, voice interaction, and visual learning through images and videos. It makes health information simple, accessible, and easy to understand for users of all literacy levels.
-# What NutrivaCare AI Does
-Collects user information such as age, gender, weight, dietary preferences, and health goals
-Analyzes eating habits and identifies nutritional gaps
-Suggests balanced meal plans based on user preferences
-Provides easy-to-understand explanations about common medicines and their general usage
-Recommends healthy food alternatives and portion guidance
-Generates educational images and food illustrations for better understanding
-Shares trusted health-related resource links for further learning
-Supports elderly and low-literacy users through simple language and step-by-step explanations
-Clearly states when information provided by the user is incomplete or insufficient
-# Input → Output Example
-# Example Input
-Age: 65
+## What NutrivaCare AI Does
 
-Weight: 70 kg
+- Collects user health and nutrition information
+- Analyzes eating habits and nutritional gaps
+- Suggests personalized healthy meal plans
+- Explains common medicines in simple language
+- Recommends healthier food alternatives
+- Provides portion control guidance
+- Generates educational food images
+- Shares trusted health resource links
+- Supports elderly and low-literacy users
+- Clearly reports missing or incomplete information
 
-Goal: Control diabetes
+## Input → Output Example
 
-Diet Preference: Vegetarian
+### Example Input
 
-Symptoms: Frequent tiredness
+- Age: 65
+- Weight: 70 kg
+- Goal: Control diabetes
+- Diet Preference: Vegetarian
+- Symptoms: Frequent tiredness
+- Medicine: Metformin
 
-Medicine: Metformin
-# Example Output
-Your meals appear low in protein and dietary fiber.
-Include whole grains, green vegetables, and protein-rich foods like lentils.
-Drink sufficient water throughout the day.
-Metformin is commonly used to help manage blood sugar levels. Follow your doctor's prescribed dosage.
-This guidance is educational and does not replace professional medical advice.
-# Agent Design & Logic
-Agent-first design: The prompt defines the AI's reasoning, safety rules, and response style.
-Personalized nutrition analysis: Uses user health details and food habits to generate tailored guidance.
-Symptom-aware recommendations: Considers user-reported symptoms while avoiding medical diagnosis.
-Medicine awareness: Explains the general purpose and safe usage of commonly prescribed medicines in simple language.
-Educational responses: Uses plain, non-technical language suitable for elderly and first-time users.
-Transparency: Clearly identifies missing information before making recommendations.
-Structured outputs: Provides concise, easy-to-read responses with actionable health tips.
-# Constraints & Responsible AI Rules
-Does not diagnose diseases.
-Does not prescribe medicines or modify prescribed dosages.
-Does not replace licensed healthcare professionals.
-Does not recommend prescription medications without medical supervision.
-Avoids complex medical terminology whenever possible.
-Clearly states when user information is incomplete or uncertain.
-Encourages consultation with healthcare professionals for serious symptoms.
-Educational and awareness-focused only.
-# Versioning
-# Version 1
-Basic nutrition assessment
-Healthy meal recommendations
-General food guidance
-Educational medicine explanations
-# Version 2
-Personalized meal suggestions based on health goals
-Nutrition gap analysis
-Simple medicine awareness with usage information
-Educational food images and resource links
-Improved support for elderly and low-literacy users
-Better handling of incomplete user inputs
-More concise, personalized, and user-friendly responses
-# Live AI Link
-NutrivaCare AI:https://gemini.google.com/gem/1zHc3lvKT8iiirJZ408XrppZuY_0aRexB?usp=sharing
+### Example Output
 
+- Low protein and fiber intake detected.
+- Suggests balanced vegetarian meals.
+- Recommends increasing water intake.
+- Explains Metformin's general purpose.
+- Advises following the doctor's prescription.
+- Educational guidance only.
 
+## Agent Design & Logic
 
+- Agent-first prompt architecture
+- Personalized nutrition analysis
+- Health goal-based recommendations
+- Symptom-aware guidance
+- Simple medicine explanations
+- Easy-to-understand responses
+- Transparent handling of missing data
+- Structured and concise outputs
 
+## Constraints & Responsible AI Rules
+
+- Does not diagnose diseases.
+- Does not prescribe medicines or change dosages.
+- Does not replace licensed healthcare professionals.
+- Does not recommend prescription medications.
+- Uses simple, non-technical language.
+- Clearly identifies incomplete information.
+- Encourages consulting healthcare professionals.
+- Educational and awareness-focused only.
+
+## Versioning
+
+### Version 1
+
+- Basic nutrition assessment
+- Healthy meal recommendations
+- General food guidance
+- Educational medicine explanations
+
+### Version 2
+
+- Personalized meal suggestions
+- Nutrition gap analysis
+- Medicine awareness
+- Educational food images and resource links
+- Better support for elderly users
+- Improved handling of incomplete inputs
+- More concise and user-friendly responses
+
+## Live AI Link
+
+https://gemini.google.com/gem/1zHc3lvKT8iiirJZ408XrppZuY_0aRexB?usp=sharing
