@@ -60,5 +60,8 @@ Educational food images and resource links
 Improved support for elderly and low-literacy users
 Better handling of incomplete user inputs
 More concise, personalized, and user-friendly responses
+# Live AI Link
+NutrivaCare AI:https://gemini.google.com/gem/1zHc3lvKT8iiirJZ408XrppZuY_0aRexB?usp=sharing
+
 
 
